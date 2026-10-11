@@ -1,10 +1,10 @@
-#  Ilyas Ongarbay
+# Ilyas Ongarbay
 
-**[English](#-english) · [Русский](#-русский)**
+**[English](#english) · [Русский](#русский)**
 
 ---
 
-## 🇬🇧 English
+## English
 
 ### About me
 
@@ -49,12 +49,12 @@ Hi! I'm Ilyas, an engineer from Almaty, Kazakhstan, with 6+ years in IT, now mov
 ### 📫 Contacts
 
 - GitHub: [xmdie](https://github.com/xmdie)
-- Email: ilyas.ongarabi228@gmail.com
-- Telegram: @drip_paket
+- Email: [ilyas.ongarabi228@gmail.com](mailto:ilyas.ongarabi228@gmail.com)
+- Telegram: [@drip_paket](https://t.me/drip_paket)
 
 ---
 
-## 🇷🇺 Русский
+## Русский
 
 ### Обо мне
 
@@ -99,5 +99,5 @@ Hi! I'm Ilyas, an engineer from Almaty, Kazakhstan, with 6+ years in IT, now mov
 ### 📫 Контакты
 
 - GitHub: [xmdie](https://github.com/xmdie)
-- Email: ilyas.ongarabi228@gmail.com
-- Telegram: @drip_paket
+- Email: [ilyas.ongarabi228@gmail.com](mailto:ilyas.ongarabi228@gmail.com)
+- Telegram: [@drip_paket](https://t.me/drip_paket)
