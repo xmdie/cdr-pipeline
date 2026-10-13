@@ -36,11 +36,11 @@ Hi! I'm Ilyas, an engineer from Almaty, Kazakhstan, with 6+ years in IT, now mov
 
 ### 🚀 Project
 
-> _TODO: project name_
+> _TODO: CDR-pipeline-countainer
 
-**What it is:** _short description: what problem it solves_
+**What it is:** Making my own CDR2MAF pipeline
 
-**Stack:** _tools used_
+**Stack:** Git, Docker, Kuber, Ansible, Terraform, Helm, ELK, Grafana, Prometheus
 
 **How to run:** _steps_
 
