@@ -4,11 +4,11 @@ on:
   push:
 
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Скачать код
         uses: actions/checkout@v4
 
-      - name: Показать файлы репозитория
-        run: ls -la
+      - name: Собрать Docker-образ
+        run: docker build -t cdr-api:ci .
