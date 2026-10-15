@@ -1,0 +1,14 @@
+name: CI
+
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Скачать код
+        uses: actions/checkout@v4
+
+      - name: Показать файлы репозитория
+        run: ls -la
