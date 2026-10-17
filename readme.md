@@ -101,3 +101,20 @@ Hi! I'm Ilyas, an engineer from Almaty, Kazakhstan, with 6+ years in IT, now mov
 - GitHub: [xmdie](https://github.com/xmdie)
 - Email: [ilyas.ongarabi228@gmail.com](mailto:ilyas.ongarabi228@gmail.com)
 - Telegram: [@drip_paket](https://t.me/drip_paket)
+
+## Запуск тестов
+
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt -r requirements-dev.txt
+    pytest -v
+
+## Запуск в Docker
+
+    docker build -t cdr-api .
+    docker run -d -p 127.0.0.1:8000:8000 cdr-api
+    curl http://127.0.0.1:8000/health
+
+## CI
+
+При каждом push GitHub Actions запускает тесты, и только после их успеха собирает Docker-образ.
