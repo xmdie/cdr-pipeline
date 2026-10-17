@@ -4,7 +4,25 @@ on:
   push:
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Скачать код
+        uses: actions/checkout@v4
+
+      - name: Установить Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Установить зависимости
+        run: pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Запустить тесты
+        run: pytest -v
+
   build:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Скачать код
